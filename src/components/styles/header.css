@@ -1,0 +1,38 @@
+header {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-bottom: 0;
+  margin-left: 3rem;
+}
+
+.logo h1 a, .menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0rem 5rem;
+}
+
+.menu a {
+  font-family: 'Be Vietnam', sans-serif;
+  margin: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
