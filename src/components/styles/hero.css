@@ -5,7 +5,6 @@
 
 .hero {
   position: relative;
-  /* background-image: url('../images/serenity.jpg'); */
   background-image: url('../../images/serenity.jpg');
   background-size: cover;
   background-position: center;
@@ -52,7 +51,7 @@
 }
 
 .hero-buttons div {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   color: white;
   padding: 12px 18px;
   font-weight: bold;
