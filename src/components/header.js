@@ -4,8 +4,11 @@ import React, { useState } from "react"
 import './styles/header.css';
 
 const Header = ({ siteTitle }) => {
-  const window = window || '';
-  const [ windowSize ] = useState({ width: window.innerWidth, height: window.innerHeight });
+  const info = { width: '', height: '' };
+  if(typeof window !== 'undefined') {
+    info = { width: window.innerWidth, height: window.innerHeight };
+  }
+  const [ windowSize ] = useState(info);
   const [ showSub, setShowSub ] = useState(false);
 
   const menuType = () => {
