@@ -4,7 +4,7 @@ import React, { useState } from "react"
 import './styles/header.css';
 
 const Header = ({ siteTitle }) => {
-  const info = { width: '', height: '' };
+  let info = { width: '', height: '' };
   if(typeof window !== 'undefined') {
     info = { ...info, width: window.innerWidth, height: window.innerHeight };
   }
