@@ -4,9 +4,9 @@ import React, { useState } from "react"
 import './styles/header.css';
 
 const Header = ({ siteTitle }) => {
+  const window = window || '';
   const [ windowSize ] = useState({ width: window.innerWidth, height: window.innerHeight });
   const [ showSub, setShowSub ] = useState(false);
-  console.log(windowSize);
 
   const menuType = () => {
     return windowSize.width <= 650 ? true : false;
