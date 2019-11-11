@@ -6,7 +6,7 @@ import './styles/header.css';
 const Header = ({ siteTitle }) => {
   const info = { width: '', height: '' };
   if(typeof window !== 'undefined') {
-    info = { width: window.innerWidth, height: window.innerHeight };
+    info = { ...info, width: window.innerWidth, height: window.innerHeight };
   }
   const [ windowSize ] = useState(info);
   const [ showSub, setShowSub ] = useState(false);
