@@ -4,10 +4,7 @@ import React, { useState } from "react"
 import './styles/header.css';
 
 const Header = ({ siteTitle }) => {
-  let info = { width: '', height: '' };
-  if(typeof window !== 'undefined') {
-    info = { ...info, width: window.innerWidth, height: window.innerHeight };
-  }
+  const info = typeof window !== `undefined` ? {width: window.innerWidth, height: window.innerHeight } : { width: '', height: '' };
   const [ windowSize ] = useState(info);
   const [ showSub, setShowSub ] = useState(false);
 
