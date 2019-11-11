@@ -72,3 +72,9 @@
 .hero-buttons div:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 650px) {
+  .hero-title h1 {
+    font-size: 35px;
+  }
+}
