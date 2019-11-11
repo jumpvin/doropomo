@@ -19,9 +19,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/about/">
           About
       </Link>
-      <Link to="/demo/">
-          Demo
-      </Link>
+      <a href = 'https://demo.doropomo.com'> Demo </a>
     </div>
   </header>
 )
