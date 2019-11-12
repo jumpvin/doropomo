@@ -83,3 +83,21 @@
 .blurb:hover .over {
   opacity: 0;
 }
+
+.demo-button {
+  padding: 12px 18px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background: #417a7a;
+  box-shadow: 1px 1px 3px #124e4e;
+  margin-top: 3rem;
+}
+
+.demo-button a {
+  font-family: 'Varela Round', sans-serif;
+  margin: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}

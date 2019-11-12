@@ -83,6 +83,9 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+      <div className = 'demo-button' > 
+        <a href = 'https://demo.doropomo.com'> View Demo </a>
+      </div>
     </div>
   </Layout>
 )
